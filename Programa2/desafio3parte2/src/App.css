@@ -1,0 +1,89 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.imagem{
+  width: 125px;
+  height: 125px;
+  cursor: pointer;
+}
+.produtos{
+  background-color: #F3F3F3;
+}
+.title {
+  font-weight: 700;
+  font-size: 19.05px;
+  line-height: 24.8px;
+
+}
+.filter{
+  margin-left: 10px;
+  border: solid 2px, #BABABA;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+#slider{
+  font-size: 14px;
+  line-height: 18.23px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  font-family: 'DM Sans', sans-serif;
+  align-items: center;
+}
+#prod{
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  font-weight: 700;
+  font-family: 'DM Sans', sans-serif;
+  align-items: center;
+}
+.start{
+  width: 326px;
+  height: 32px;
+  top: 117px;
+  left: 25px;
+}
+.icons{
+  width: 375px;
+  height: 55px;
+  cursor: pointer;
+  
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
